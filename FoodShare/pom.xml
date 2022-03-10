@@ -9,11 +9,11 @@
 		<version>2.5.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.eliana.betancur</groupId>
-	<artifactId>recipe</artifactId>
+	<groupId>com.food.share</groupId>
+	<artifactId>Food Share</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>recipe</name>
-	<description>Recipe webapp using  Spring Boot. Case study for PerScholas FullStack Java Developer course</description>
+	<name>Food Share</name>
+	<description>Food share app is an application that is going to link donors and hungry people</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -102,16 +102,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 		</dependency>
-
-		<!-- AWS -->
-		<dependency>
-			<groupId>com.amazonaws</groupId>
-			<artifactId>aws-java-sdk-s3</artifactId>
-			<version>1.11.797</version>
-		</dependency>
-
-
-
 
 		<!-- MySQL Database -->
 		<dependency>
